@@ -8,6 +8,7 @@ Then user is able to navigate to expected page
 
 
 Scenario: User is able to view the borrowing capacity by entering by filling the form and able to clear it.
+
 Given user is in calculator page
 When  a person is single 
 When  person has 0 dependants, 
