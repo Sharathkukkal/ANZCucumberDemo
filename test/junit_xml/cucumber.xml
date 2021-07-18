@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="26.839253">
+<testcase classname="loading banking site page" name="User is able to load and navigate to estimation page" time="8.153215">
+<system-out><![CDATA[Given user is opening the browser...........................................passed
+When user enter's the correct URL'..........................................passed
+Then user is able to navigate to expected page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="loading banking site page" name="User is able to view the borrowing capacity by entering by filling the form and able to clear it." time="10.914714">
+<system-out><![CDATA[Given user is in calculator page............................................passed
+When a person is single.....................................................passed
+When person has 0 dependants,...............................................passed
+When person is	buying a home to live in,....................................passed
+When person with income of $80,000,.........................................passed
+When person has other income $10,000,.......................................passed
+When person's living expenses $500,.........................................passed
+When person's current home loan repayments $0,..............................passed
+When person's other loan repayments $100,...................................passed
+When person's other commitments $0..........................................passed
+When person's total credit card limits $10,000..............................passed
+Then person's borrowing capacity would be $479,000..........................passed
+Given start over button is visible and active...............................passed
+When user clicks start over button..........................................passed
+Then form fields values get cleared.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="loading banking site page" name="Application displays the expected warning message when user fails to enter the expected details." time="7.771324">
+<system-out><![CDATA[Given user is in borrow calculator page.....................................passed
+When user enter's '$1' in the living expense field..........................passed
+When user leves other field value as zero...................................passed
+When user click's Work out how much I could borrow button...................passed
+Then user is able to view the expected message in application...............passed
+]]></system-out>
+</testcase>
+</testsuite>
